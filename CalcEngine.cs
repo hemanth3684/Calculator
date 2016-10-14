@@ -151,14 +151,15 @@ namespace Calculator
                 {
                     m_decimal = true;
                 }
-                if (m_input.Contains("-"))
-                {
-                    m_sign = "-";
-                }
-                else
-                {
-                    m_sign = "+";
-                }
+                if( m_input.Contains( "-" ) ? "-" ,"+"))
+                //if (m_input.Contains("-"))
+                //{
+                //    m_sign = "-";
+                //}
+                //else
+                //{
+                //    m_sign = "+";
+                //}
                 //Get rid of any extra zeroes that may have been prepended or appended
                 if (m_input.IndexOf("0", 0, 1) == 0 && m_input.IndexOf(".") > 1)
                 {
