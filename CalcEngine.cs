@@ -151,7 +151,7 @@ namespace Calculator
                 {
                     m_decimal = true;
                 }
-               	if( m_input.Contains( "-" ) ? m_sign = "-" : m_sign = "+" )
+               	m_sign = ( m_input.Contains( "-" ) ) ? "-" : "+";
                 //if (m_input.Contains("-"))
                 //{
                 //    m_sign = "-";
