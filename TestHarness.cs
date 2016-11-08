@@ -6,7 +6,7 @@ using NUnit.Framework;
 namespace Calculator
 {
     //This class contains all the test cases I made for NUnit
-    //If you have NUnit installed you can debug easily by seeing if any test cases become broken
+    //If you have NUnit instaslled you can debug easily by seeing if any test cases become broken
 
     [TestFixture]
     public class Test_Appending
